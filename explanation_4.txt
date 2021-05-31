@@ -1,0 +1,3 @@
+Time complexity is O(n) 
+space complexity is O(1)
+The list was looped through and the number were then sorted as required

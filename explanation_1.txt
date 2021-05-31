@@ -1,0 +1,3 @@
+Time complexity as intructed O(logn)
+Time complexity O(1)
+The implementation uses a _while loop to get the floor of square after dision by 2 

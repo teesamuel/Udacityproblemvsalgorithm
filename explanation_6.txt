@@ -1,0 +1,2 @@
+Time complexity is O(n) because its performs a single tranversal through the list
+Space complexity is O(1)

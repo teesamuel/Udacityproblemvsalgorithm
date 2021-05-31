@@ -1,0 +1,4 @@
+quick sort was used to sort the array input with a time complexity of O(nlogn)
+The space complexity is O(n)
+
+After sorting the larger numbers are within an iteration

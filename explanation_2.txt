@@ -1,0 +1,6 @@
+Time complexity as intructed O(logn)
+Time complexity  O(log n) this is because new array that is half in size are created by each time the recursion occurs 
+
+The implementation recursives devides the array to perform search . 
+The recursion has a sorted side and another unsorted side
+

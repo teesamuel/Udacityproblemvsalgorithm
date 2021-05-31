@@ -1,0 +1,8 @@
+
+Tie complexity is O(n*m) where m is the number of suffixes to be generated
+The sapace complexity is O(n)
+
+Insertion is done in O(1) time and space complexity
+The implementation used a recursive approach in to go through to check if the word is present
+The find method  space complexity is O(1) while its time complexity is O(n). 
+In moves through the node until it finds the word
