@@ -10,6 +10,8 @@ def sqrt(number):
 
     if number ==0 or number ==1:
         return number
+    if number < 1:
+        return 0
 
     start = 1
     end = number
@@ -19,7 +21,6 @@ def sqrt(number):
         # check for perfect sQUare
         if (midPoint * midPoint == number):
             return midPoint
-        
         #since we are looking for the floor, the first lowest value will be our answer 
         if midPoint * midPoint < number:
             start = midPoint + 1
@@ -34,3 +35,6 @@ print ("Pass" if  (0 == sqrt(0)) else "Fail")
 print ("Pass" if  (4 == sqrt(16)) else "Fail")
 print ("Pass" if  (1 == sqrt(1)) else "Fail")
 print ("Pass" if  (5 == sqrt(27)) else "Fail")
+print ("Pass" if  (0 == sqrt(-1)) else "Fail")
+print ("Pass" if  (0 == sqrt(-99)) else "Fail")
+print ("Pass" if  (999999== sqrt(999999999999)) else "Fail")

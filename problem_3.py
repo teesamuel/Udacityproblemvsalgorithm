@@ -36,6 +36,9 @@ def rearrange_digits(input_list):
     sortedlist=quicksort(input_list)
     if(len(sortedlist)) ==1:
         return [sortedlist[0],0]
+    elif (len(sortedlist)) <1:
+        return []
+
     flag=0
     first_output=""
     second_output=""
@@ -60,6 +63,10 @@ test_function([[1, 2, 3, 4, 5], [542, 31]])
 test_function([[4, 6, 2, 5, 9, 8], [964, 852]])
 test_function([[1], [0, 1]])
 test_function([[0], [0, 0]])
+test_case2 = [[0,0,0,0,0], [0, 0]]
+test_case3 = [[], []]
+test_function(test_case2)
+test_function(test_case3)
 
 
 

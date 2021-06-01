@@ -1,6 +1,12 @@
 
 The add handler  is done in O(n) time complexity where n is the list of path while the  space complexity O(1)
-the input string was splite by '/' and an iteration was done to check if the node exist then add a new one.Each word serve as a node
+the input string was split by '/' and an iteration was done to check if the node exist then add a new one.Each word serve as a node
 
 For look up , the implementation used a recursive approach in to go through to check if the path is present
 The   space complexity is O(1) while its time complexity is O(n *m ). where m is the average length of unique path stored in each Node and n is the number of URL(depth) of RouteTrie
+
+A dictionary was used in the tree node and the character are the key. 
+The trie ended up becoming a dictionary of dictionary (the children having a node that has children dictionary).
+Each node stored the character, and dictionary of children 
+and a handler representing handler of that path of the request. The character in each node here are words from
+the output of the split done on / e.g "/home/about" where home was stored in a node and about in another node inside the children dictionary

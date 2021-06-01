@@ -2,3 +2,11 @@ quick sort was used to sort the array input with a time complexity of O(nlogn)
 The space complexity is O(n)
 
 After sorting the larger numbers are within an iteration
+
+Quick sort was implemented by picking a pivot (the first element in the list)
+Then the array are then sorted recursively by putting lower element to the left of the pivot  and 
+higher element to the right of the pivot
+
+
+After sorting , the list was looped through in reverse order and the numbers were concatenated to 
+two values using a flag as a determinant either to ad it to the firstoutput or second output 

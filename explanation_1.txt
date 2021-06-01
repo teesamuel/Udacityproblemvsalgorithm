@@ -1,3 +1,7 @@
 Time complexity as intructed O(logn)
 Time complexity O(1)
+
 The implementation uses a _while loop to get the floor of square after dision by 2 
+Two pointers start and end were used
+Its checks  for perfect sQUare
+since we are looking for the floor, the first lowest value will be our answer 

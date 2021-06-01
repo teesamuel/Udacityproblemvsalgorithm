@@ -4,3 +4,5 @@ Time complexity  O(log n) this is because new array that is half in size are cre
 The implementation recursives devides the array to perform search . 
 The recursion has a sorted side and another unsorted side
 
+A while loop was used in this implementation and the list was recursively divide into two parts 
+and the element we are looking for are being checked 

@@ -1,3 +1,10 @@
 Time complexity is O(n) 
 space complexity is O(1)
 The list was looped through and the number were then sorted as required
+
+I used three pointers and looped throught the list.I did swaping when 0 or 2 is encountered
+I moved the element to the left and increment the current index when 0 is encountered and move 2 to the 
+right side when 2 is encountered and also reduce the last index.
+
+the aim of the swapping was to ensure that the left has zeros , the right has 2 and automatically 1 will be in the middle
+

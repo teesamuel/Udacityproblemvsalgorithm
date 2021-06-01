@@ -1,2 +1,8 @@
 Time complexity is O(n) because its performs a single tranversal through the list
 Space complexity is O(1)
+
+The first element were picked as the smallest element and also the largest element. 
+
+An iteration was done through the list to check if each element is less than lowest 
+or greater than highest and there values are then being replaced if found to meet the check condition.
+
